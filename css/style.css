@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.Ⓢweet_cont_sec_1{
+    padding: 10%;
+}
+
+.Ⓢweet_cont_sec_1_link{
+padding: 5%;
+} 
+
+.Ⓢweet_cont_sec_1_link a{
+width: 200px;
+}
+
+.Ⓢweet_cont_sec_1 hr{
+    border-top: 1px solid rgba(1,1,1,0.3);
+}

@@ -1,0 +1,91 @@
+.Ⓢweet_cont_banner{
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("file:///C:/Users/Administrador/Pictures/img/inicio.jpg");
+}
+
+.Ⓢweet_sombra{
+position: absolute;    
+left: 50%;
+top: 50%;
+-ms-transform:translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+padding: 20px;
+width: 80%;
+text-align: center;
+background-color: rgba(0,0,0,0.6);
+color: #ffffff;
+margin: auto;
+}
+
+.Ⓢweet_sombra hr{
+border-top: 1px solid #ffffff;
+}
+
+.Ⓢweet_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+.Ⓢweet_cont_banner_link a{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.Ⓢweet_cont_banner_link a:hover{
+    background-color: rgb(233, 181, 13);
+    color: #111111;
+}
+
+.Ⓢweet_banner_link{
+    opacity: 0;
+    animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.Ⓢweet_banner_link_1{
+    opacity: 0;
+    animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.Ⓢweet_banner_link_2{
+    opacity: 0;
+    animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.Ⓢweet_banner_link_3{
+    opacity: 0;
+    animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: Ⓢweet_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.Ⓢweet_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+    margin-top: 2000px;
+    margin-bottom: 100px;
+}
